@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- nav-bar  -->
+      <div class="navbar bg-[#00224D]">
+        <div
+          class="max-w-[1200px] flex flex-row mx-auto text-white justify-between items-center h-[72px]"
+        >
+          <h2 class="font-[700] text-[20px] pr-16">
+            <span class="text-[#3DA98C]">SYNAPSE</span>
+            <span class="text-[#fff] pl-2">HUB</span>
+          </h2>
+
+          <ul class="flex flex-row gap-x-12 font-[600]">
+            <li class="cursor-pointer hover:underline">
+              <a href="#help">Help?</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- cards  -->
+      <div class="w-[100%] h-screen flex justify-evenly items-center">
+        <div class="w-[500px] rounded-md border">
+          <div class="flex justify-center items-center">
+            <img
+              src="./images/mentee.jpg"
+              alt="Laptop"
+              class="h-[300px] w-[70%] rounded-t-md object-cover"
+            />
+          </div>
+          <div class="p-4 flex flex-col items-center justify-center">
+            <h1 class="inline-flex items-center text-lg font-semibold">
+              Register as a Mentee
+            </h1>
+            <div>
+              <button
+                type="button"
+                class="mt-4 rounded-sm bg-black px-16 rounded-md py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              >
+                <!-- Mentee registration form  -->
+                <a href="">Register</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[500px] rounded-md border">
+          <div class="flex justify-center items-center">
+            <img
+              src="./images/mentor.jpg"
+              alt="Laptop"
+              class="h-[300px] w-[100%] rounded-t-md object-cover"
+            />
+          </div>
+          <div class="p-4 flex flex-col items-center justify-center">
+            <h1 class="inline-flex items-center text-lg font-semibold">
+              Register as a Mentor
+            </h1>
+            <div>
+              <button
+                type="button"
+                class="mt-4 rounded-sm bg-black px-16 rounded-md py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              >
+                <!-- Mentor registration form  -->
+                <a href="">Register</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer  -->
+
+      <section id="help" class="w-full relative bg-[#23272A]">
+        <h3 class="text-[#404EED] text-center pt-12 text-[1.5rem]">
+          Connect with DEVELOPERS
+        </h3>
+
+        <div class="max-w-[1200px] mx-auto py-16">
+          <div
+            class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-items-center"
+          >
+            <!-- col-1  -->
+            <div>
+              <h3 class="text-[#404EED] mb-5">Gmail</h3>
+              <ul class="text-white space-y-2 cursor-pointer">
+                <li class="hover:underline">ujwalcse01@gmail.com</li>
+                <li class="hover:underline">priyachalasani1@gmail.com</li>
+                <li class="hover:underline">Surapaneni.rk03@gmail.com</li>
+                <li class="hover:underline">alfaizshaikh0306@gmail.com</li>
+              </ul>
+            </div>
+            <!-- col-2  -->
+            <div>
+              <h3 class="text-[#404EED] mb-5">LinkedIn</h3>
+              <ul class="text-white space-y-2 cursor-pointer">
+                <li class="hover:underline">
+                  <a href="https://www.linkedin.com/in/ujwal-mishra-9964572a7/"
+                    >Ujwal Mishra
+                  </a>
+                </li>
+                <li class="hover:underline">
+                  <a href="https://www.linkedin.com/in/haripriya01"
+                    >Hari Priya Chalasani</a
+                  >
+                </li>
+                <li class="hover:underline">
+                  <a
+                    href="https://www.linkedin.com/in/rohith-kumar-surapaneni-519238239/"
+                    >Rohith Kumar Surapaneni</a
+                  >
+                </li>
+                <li class="hover:underline">
+                  <a href="https://in.linkedin.com/in/alfaiz-shaikh-88504827b"
+                    >Alfaiz Shaikh</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="h-[2px] w-[100%] bg-[#404EED] mt-8"></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
