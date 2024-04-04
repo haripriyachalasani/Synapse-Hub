@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Synapse HUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Logo-1.bg removed.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- nav section Started -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#">
+            <img src="Images/Logo-2.bg removed.png" alt="Logo" class="logo" height="250vh">
+        </a>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Connect</a></li>
+            <li><a href="#" class="loginbtn">Login→</a></li>
+        </ul>
+    </nav>
+    <!-- nav section ended -->
+
+    <!-- Login Section -->
+     <div class="loginContainer">
+        <div class="loginpage">
+            <div class="right-div">
+                <img src="Images/login image.png">
+            </div>
+            <div class="left-div">
+                <h1>Hello Again! <br><span>Welcome back! We missed You!</span></h1>
+                
+                <form action="">
+                    <label for="mail" class="mailid">Email</label><br>
+                    <input type="email" id="email" placeholder="synapsehub@gmail.com" class="mail"><br>
+        
+                    <label for="password" class="passcode">Password</label><br>
+                    <input type="text" id="password" placeholder="Password" class="password"><br>
+                </form>
+                <p class="forgetpassword">Forget Password</p><br>
+        
+                <button class="login" onclick="login()">Login</button><br>
+        
+                <p class="not">Not a Member? <a href="register.html" style="text-decoration: none;color: skyblue;">Register Now</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Login page ended -->
+
+  <!-- footer section started -->
+  <section id="footer">
+    <div class="footer">
+        <h2 class="footer-logo"><span style="color: #3DA98C;font-size: 40px;">SYNAPSE </span> HUB</h2> 
+        <h4 class="footer-h4">Contact Us</h4>
+        <div class="social-media">
+            <a href="#"><img src="https://i.pinimg.com/originals/f3/08/c6/f308c6e060122209c716705f48c0f181.png" class="logo-f" alt="Facebook"></a>
+            <a href="#"><img src="https://e7.pngegg.com/pngimages/538/713/png-clipart-instagram-logo-illustration-computer-icons-logo-logo-instagram-miscellaneous-text.png" class="logo-f" alt="Instagram"></a>
+            <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM978ETfG_opi76BTpk1NXBCuwrBCaXBe6amuhyj2Clw&s" class="logo-f" alt="Twitter"></a>
+            <a href="#"><img src="https://icon-library.com/images/facebook-icon-black-png/facebook-icon-black-png-12.jpg" class="logo-f" alt="LinkedIn"></a>
+        </div>
+        <div class="product">
+            <div class="div">📞 +91 63XXXXXXXX</div>                
+            <div class="div">📧 synapsehub.io@gmail.com</div>
+            
+        </div>
+        <div class="copy-right">
+            <p>&copy; 2024 SYNAPSE HUB. All rights reserved.</p>
+        </div>
+    </div>
+</section>
+  <!-- footer section ended -->
+</body>
+</html>
