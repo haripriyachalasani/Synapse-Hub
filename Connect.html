@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect</title>
+    <link rel="icon" href="Images/Logo-1.bg removed.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- internal css start -->
+    <style>
+        .outerconnecttype-div{
+            padding-top: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding-bottom: 50px;
+        }
+        .innerconnecttype-div{
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            height: 500px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .connectimg{
+            max-width: 400px;
+            height: 400px;
+        }
+        .connecttitle{
+            font-size: 25px;
+            color: #3DA98C;
+            text-align: center;
+        }
+        .connect-description{
+            font-size: 15px;
+        }
+        .connectbtn{
+            text-decoration: none;
+            padding: 20px;
+            background-color: #3DA98C;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            color: white;
+            cursor: pointer;
+            width: 150px;
+            text-align: center;
+            font-size: 20px;
+            border: none;
+        }
+        .connectbtn:hover{
+            background-color: #89dcc6;
+            color: black;
+        }
+        .connectbtn a{
+            text-decoration: none;
+            background: none;
+            color: white;
+        }
+        .connectbtn a:hover{
+            background: none;
+            color: black;
+        }
+    </style>
+    <!-- internal css end -->
+</head>
+<body>
+    <!-- nav section Started -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html">
+            <img src="Images/Logo-2.bg removed.png" alt="Logo" class="logo" height="250vh">
+        </a>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="Connect.html">Connect</a></li>
+          <li><a href="login.html" class="loginbtn">Login→</a></li>
+        </ul>
+    </nav>
+    <!-- nav section ended -->
+    <!-- connection section start-->
+    <section class="typesofconnect">
+        <div class="outerconnecttype-div">
+            <div class="innerconnecttype-div">
+                <img src="Images/mentorconnect.avif" alt="mentor img" class="connectimg" height="200px" width="200px">
+                <p class="connecttitle">Connect with our Mentor's</p>
+                <p class="connect-description" style="font-style: italic;font-weight: normal;">"Experience personalized growth with our mentorship network! Connect with mentors who tailor their guidance to your unique journey. <br> Let's co-create your path to excellence, hand in hand!"</p>
+                <button class="connectbtn"> <a href="connectwithmentor.html" class="connectbtn">Connect</a></button>
+            </div>
+            <div class="innerconnecttype-div">
+                <img src="Images/devconnect.jpg" alt="mentee img" class="connectimg"  width="300px">
+                <p class="connecttitle">Connect with our Dev Team</p>
+                <p class="connect-description" style="font-style: italic;font-weight: normal;">"Embark on a journey of assistance with our development team! Connect with skilled professionals who are dedicated to helping you overcome obstacles and reach your goals. <br> Let's pave the way to success together!"</p>
+                <button class="connectbtn"> <a href="connectwithdevteam.html" class="connectbtn">Connect</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- registration section end -->
+    <!-- footer section started -->
+    <footer class="footer">
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="https://facebbok.com">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://twiter.com">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://linkedin.com">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://instagram.com">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="register.html">Register</a></li>
+          <li class="menu__item"><a class="menu__link" href="courses.html">Courses</a></li>
+          <li class="menu__item"><a class="menu__link" href="Connect.html">Contact</a></li>
+        </ul>
+        <p>&copy;2024 SYNAPSE HUB| All Rights Reserved</p>
+      </footer>
+  <!-- footer section ended -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+    
+</body>
+</html>

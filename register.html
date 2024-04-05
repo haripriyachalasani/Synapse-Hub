@@ -8,6 +8,56 @@
     <link rel="icon" href="Images/Logo-1.bg removed.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- internal css start -->
+  <style>
+        .outertype-div{
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding-bottom: 50px;
+    }
+    .innertype-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        height: 450px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .registerimg{
+        max-width: 400px;
+        height: 400px;
+    }
+    .typebtn{
+        text-decoration: none;
+        margin-bottom: 20px;
+        background-color: #3DA98C;
+        padding: 20px;
+        border-radius: 15px;
+        color: white;
+        font-size: 20px;
+        width: 150px;
+        text-align: center;
+        border: none;
+      }
+    .typebtn:hover{
+      background-color: #89dcc6;
+      cursor: pointer;
+    }
+    .innertype-div p{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+  </style>
+  <!-- internal css end -->
 </head>
 <body>
     <!-- nav section Started -->
@@ -16,15 +66,15 @@
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
-        <a href="#">
+        <a href="index.html">
             <img src="Images/Logo-2.bg removed.png" alt="Logo" class="logo" height="250vh">
         </a>
         <ul>
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Register</a></li>
-          <li><a href="#">Connect</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="Connect.html">Connect</a></li>
           <li><a href="login.html" class="loginbtn">Login→</a></li>
         </ul>
     </nav>
@@ -36,37 +86,43 @@
                 <div class="innertype-div">
                     <img src="Images/mentor.jpg" alt="mentor img" class="registerimg">
                     <p>Register as a Mentor</p>
-                    <a href="mentor.html" class="typebtn">Register</a>
+                    <button class="typebtn"><a href="mentor.html" class="typebtn">Register</a></button>
                 </div>
                 <div class="innertype-div">
                     <img src="Images/mentee.jpg" alt="mentee img" class="registerimg" height="500px" width="300px">
                     <p>Register as a Mentee</p>
-                    <a href="mentee.html" class="typebtn">Register</a>
+                    <button class="typebtn"><a href="mentee.html" class="typebtn">Register</a></button>
                 </div>
             </div>
         </section>
     <!-- registration section end -->
 
     <!-- footer section started -->
-    <section id="footer">
-        <div class="footer">
-            <h2 class="footer-logo"><span style="color: #3DA98C;font-size: 40px;">SYNAPSE </span> HUB</h2> 
-            <h4 class="footer-h4">Contact Us</h4>
-            <div class="social-media">
-                <a href="#"><img src="https://i.pinimg.com/originals/f3/08/c6/f308c6e060122209c716705f48c0f181.png" class="logo-f" alt="Facebook"></a>
-                <a href="#"><img src="https://e7.pngegg.com/pngimages/538/713/png-clipart-instagram-logo-illustration-computer-icons-logo-logo-instagram-miscellaneous-text.png" class="logo-f" alt="Instagram"></a>
-                <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM978ETfG_opi76BTpk1NXBCuwrBCaXBe6amuhyj2Clw&s" class="logo-f" alt="Twitter"></a>
-                <a href="#"><img src="https://icon-library.com/images/facebook-icon-black-png/facebook-icon-black-png-12.jpg" class="logo-f" alt="LinkedIn"></a>
-            </div>
-            <div class="product">
-                <div class="div">📞 +91 63XXXXXXXX</div>                
-                <div class="div">📧 synapsehub.io@gmail.com</div>
-            </div>
-            <div class="copy-right">
-                <p>&copy; 2024 SYNAPSE HUB. All rights reserved.</p>
-            </div>
-        </div>
-    </section>
+    <footer class="footer">
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="https://facebbok.com">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://twiter.com">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://linkedin.com">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://instagram.com">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="register.html">Register</a></li>
+          <li class="menu__item"><a class="menu__link" href="courses.html">Courses</a></li>
+          <li class="menu__item"><a class="menu__link" href="Connect.html">Contact</a></li>
+        </ul>
+        <p>&copy;2024 SYNAPSE HUB| All Rights Reserved</p>
+      </footer>
   <!-- footer section ended -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
